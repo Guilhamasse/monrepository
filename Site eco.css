@@ -1,0 +1,67 @@
+/* Corps de page */
+body{
+    margin: 0 auto;
+
+}
+
+/* block haut de page */
+header.haut {
+    display: flex;
+    align-items: center;
+    
+}
+/* section haut de page */
+section.top-page{
+    background: url("../img/plante flou.jpg");
+    background-size: cover;  /* ne déforme pas l'image*/
+    height: 200vh;
+    padding: 25px;
+}
+
+
+/* block autour des boutons, espace entre eux */
+navigation.menu{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    
+    
+    
+}
+
+
+/* enleve le point à côté des boutons et les mets côte à côte */
+navigation.menu ul li{
+    display: inline-block;
+    
+    
+}
+
+/* bouton en noir */
+navigation.menu ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Page de bienvenue */
+.big-title {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 70px 70px;
+}
+
+/* Page d'histoire Sirea Group */
+.title{
+    color: red;
+    font-size: 40px;
+}
+
+/* Texte de la page histoire  */
+.Texte{
+    color: white;
+    font-size: 25px;
+}
